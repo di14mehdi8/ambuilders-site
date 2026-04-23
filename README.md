@@ -3,6 +3,9 @@
 Modern, single-page static site for AM Builders, Inc. (Nashville, TN).
 Pure HTML / CSS / JS. Zero build step. Drop straight onto S3 or any static host.
 
+**Live:** https://di14mehdi8.github.io/ambuilders-site/
+**Repo:** https://github.com/di14mehdi8/ambuilders-site
+
 ## Structure
 
 ```
