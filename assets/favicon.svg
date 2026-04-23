@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AM Builders Inc.">
+  <defs>
+    <linearGradient id="sun" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#D4620F"/>
+      <stop offset="1" stop-color="#F8A93A"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="10" fill="#F5F1EA"/>
+  <!-- Sun rays radiating from bottom center -->
+  <g fill="url(#sun)">
+    <path d="M32 44 L5 22 L9 38 Z"/>
+    <path d="M32 44 L13 10 L17 30 Z"/>
+    <path d="M32 44 L24 4 L27 26 Z"/>
+    <path d="M32 44 L40 4 L37 26 Z"/>
+    <path d="M32 44 L51 10 L47 30 Z"/>
+    <path d="M32 44 L59 22 L55 38 Z"/>
+  </g>
+  <!-- Sun half-disc -->
+  <path d="M14 44 A18 18 0 0 1 50 44 Z" fill="url(#sun)"/>
+  <!-- Building silhouettes -->
+  <g fill="#0A0A0A">
+    <rect x="20" y="28" width="7" height="20"/>
+    <rect x="28.5" y="18" width="7.5" height="30"/>
+    <rect x="37.5" y="22" width="7" height="26"/>
+  </g>
+  <!-- Ground line -->
+  <rect x="0" y="48" width="64" height="2.5" fill="#0A0A0A"/>
+</svg>
